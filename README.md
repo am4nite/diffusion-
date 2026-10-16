@@ -18,9 +18,7 @@ do for [iter=0:40] {
          title sprintf("Iteration %d", iter)
 }
 set output
-//
-```c
-
+_______________________________________________________________________________________________________________
 # Basic graph plot
 set terminal pngcairo size 1000,700 enhanced font "Arial,12"
 set output "plot_whole_lot2.png" # name
