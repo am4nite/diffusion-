@@ -36,5 +36,5 @@ set key off  #remove this to show itteration number
 plot for [iter=0:99] "diffusion.dat" every :::iter::iter using 1:2 with linespoints \
      lw 2 ps 1 title sprintf("Iteration %d", iter)
 
-//
+
 
